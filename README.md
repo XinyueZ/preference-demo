@@ -1,4 +1,4 @@
-hows how build preference in Android
+# Demo. Shows how build preference in Android
 
 ### What
 
