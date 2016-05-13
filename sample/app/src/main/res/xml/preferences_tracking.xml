@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <android.support.v7.preference.CheckBoxPreference
+        android:key="@string/preference_key_tracking_tracking_allowed"
+        android:title="@string/preference_title_tracking_tracking_allowed"
+        android:summary="@string/preference_summary_tracking_tracking_allowed"
+        android:defaultValue="true"
+        />
+</android.support.v7.preference.PreferenceScreen>

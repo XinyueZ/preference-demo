@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <android.support.v7.preference.EditTextPreference
+        android:key="@string/preference_key_userdata_email"
+        android:title="@string/preference_title_userdata_email"
+        android:summary="@string/preference_summary_userdata_email"
+        android:defaultValue=""
+        android:singleLine="true"
+        android:dialogTitle="@string/preference_dialogtitle_userdata_email"
+        />
+    <android.support.v7.preference.EditTextPreference
+        android:key="@string/preference_key_userdata_prename"
+        android:title="@string/preference_title_userdata_prename"
+        android:summary="@string/preference_summary_userdata_prename"
+        android:defaultValue=""
+        android:singleLine="true"
+        android:dialogTitle="@string/preference_dialogtitle_userdata_prename"
+        android:capitalize="words"
+        />
+    <android.support.v7.preference.EditTextPreference
+        android:key="@string/preference_key_userdata_surname"
+        android:title="@string/preference_title_userdata_surname"
+        android:summary="@string/preference_summary_userdata_surname"
+        android:defaultValue=""
+        android:singleLine="true"
+        android:dialogTitle="@string/preference_dialogtitle_userdata_surname"
+        android:capitalize="words"
+        />
+    <android.support.v7.preference.EditTextPreference
+        android:key="@string/preference_key_userdata_phone"
+        android:title="@string/preference_title_userdata_phone"
+        android:summary="@string/preference_summary_userdata_phone"
+        android:defaultValue=""
+        android:singleLine="true"
+        android:dialogTitle="@string/preference_dialogtitle_userdata_phone"
+        android:phoneNumber="true"
+        />
+</android.support.v7.preference.PreferenceScreen>

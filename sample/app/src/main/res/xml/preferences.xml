@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                                                xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.preference.Preference
+        android:summary="@string/preference_summary_userdata"
+        android:title="@string/preference_title_userdata"
+        app:fragment="de.immonet.mobile.flathunting.app.settings.SettingContentFragment"
+        >
+        <extra
+            android:name="index"
+            android:value="0"/>
+        <extra
+            android:name="title"
+            android:value="@string/preference_title_userdata"/>
+        <extra
+            android:name="header"
+            android:value="preferences_userdata"/>
+    </android.support.v7.preference.Preference>
+    <android.support.v7.preference.Preference
+        android:summary="@string/preference_summary_notifications"
+        android:title="@string/preference_title_notifications"
+        app:fragment="de.immonet.mobile.flathunting.app.settings.SettingContentFragment"
+        >
+        <extra
+            android:name="index"
+            android:value="1"/>
+        <extra
+            android:name="title"
+            android:value="@string/preference_title_notifications"/>
+        <extra
+            android:name="header"
+            android:value="preferences_notifications"/>
+    </android.support.v7.preference.Preference>
+    <android.support.v7.preference.Preference
+        android:summary="@string/preference_summary_datastore"
+        android:title="@string/preference_title_datastore"
+        app:fragment="de.immonet.mobile.flathunting.app.settings.SettingContentFragment"
+        >
+        <extra
+            android:name="index"
+            android:value="2"/>
+        <extra
+            android:name="title"
+            android:value="@string/preference_title_datastore"/>
+        <extra
+            android:name="header"
+            android:value="preferences_datastore"/>
+    </android.support.v7.preference.Preference>
+    <android.support.v7.preference.Preference
+        android:summary="@string/preference_summary_tracking"
+        android:title="@string/preference_title_tracking"
+        app:fragment="de.immonet.mobile.flathunting.app.settings.SettingContentFragment"
+        >
+        <extra
+            android:name="index"
+            android:value="3"/>
+        <extra
+            android:name="title"
+            android:value="@string/preference_title_tracking"/>
+        <extra
+            android:name="header"
+            android:value="preferences_tracking"/>
+    </android.support.v7.preference.Preference>
+
+
+</android.support.v7.preference.PreferenceScreen>

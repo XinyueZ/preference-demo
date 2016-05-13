@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <com.demo.preference.app.fragments.CacheClearPreference
+        android:summary="@string/preference_title_datastore_clear_cache"
+        android:title="@string/preference_summary_datastore_clear_cache"
+        android:dialogMessage="@string/preference_dialogmessage_datastore_clear_cache"
+        android:dialogTitle="@string/preference_dialogtitle_datastore_clear_cache"
+        android:key="@string/preference_key_datastore_clear_cache"
+        android:negativeButtonText="@string/preference_dialogcancel_datastore_clear_cache"
+        android:positiveButtonText="@string/preference_dialogok_datastore_clear_cache"
+        >
+        <extra
+            android:name="header"
+            android:value="preference_title_datastore_clear_cache"/>
+    </com.demo.preference.app.fragments.CacheClearPreference>
+</android.support.v7.preference.PreferenceScreen>

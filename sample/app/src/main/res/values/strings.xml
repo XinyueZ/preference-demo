@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">preferenceSample</string>
+
+
+
+
+    <string name="preference_title_datastore">Storage</string>
+    <string name="preference_summary_datastore">Setting on local cache</string>
+    <string name="preference_key_datastore_clear_cache">prefs_datastore_clear_cache</string>
+    <string name="preference_title_datastore_clear_cache">Cache clear</string>
+    <string name="preference_summary_datastore_clear_cache">Delete all local data including images, database etc.</string>
+    <string name="preference_dialogmessage_datastore_clear_cache">Do you want to delete all local data including images, database?</string>
+    <string name="preference_dialogtitle_datastore_clear_cache">Cache clear</string>
+    <string name="preference_dialogok_datastore_clear_cache">OK</string>
+    <string name="preference_dialogcancel_datastore_clear_cache">Cancel</string>
+
+    <string name="preference_title_tracking">Tracking</string>
+    <string name="preference_summary_tracking">Setting on tracking</string>
+    <string name="preference_key_tracking_tracking_allowed">prefs_tracking_tracking_allowed</string>
+    <string name="preference_title_tracking_tracking_allowed">Allow tracking</string>
+    <string name="preference_summary_tracking_tracking_allowed">The App will be tracked.</string>
+
+    <string name="preference_title">Settings</string>
+    <string name="preference_title_userdata">User data, storage</string>
+    <string name="preference_summary_userdata">Saved data</string>
+    <string name="preference_key_userdata_email">prefs_userdata_email</string>
+    <string name="preference_title_userdata_email">E-Mail-Adresse</string>
+    <string name="preference_summary_userdata_email">E-Mail-Adresse for contact.</string>
+    <string name="preference_dialogtitle_userdata_email">Please input an E-Mail-Adresse.</string>
+    <string name="preference_key_userdata_prename">prefs_userdata_prename</string>
+    <string name="preference_title_userdata_prename">First-name</string>
+    <string name="preference_summary_userdata_prename">Your first-name for contact</string>
+    <string name="preference_dialogtitle_userdata_prename">Please input your first-name.</string>
+    <string name="preference_key_userdata_surname">prefs_userdata_surname</string>
+    <string name="preference_title_userdata_surname">Last-name</string>
+    <string name="preference_summary_userdata_surname">Your last-name for contact</string>
+    <string name="preference_dialogtitle_userdata_surname">Please input your last-name.</string>
+    <string name="preference_key_userdata_annotation">prefs_userdata_annotation</string>
+    <string name="preference_title_userdata_phone">Phone</string>
+    <string name="preference_summary_userdata_phone">Give a phone-number for contact, please.</string>
+    <string name="preference_dialogtitle_userdata_phone">Please input a phone-number.</string>
+    <string name="preference_key_userdata_phone">prefs_userdata_phone</string>
+    <string name="preference_last_used_api_url">prefs_last_used_api_url</string>
+
+    <string name="preference_title_debug">Debug option</string>
+    <string name="preference_summary_debug">Setting for debug</string>
+
+    <string name="preference_title_debug_open_holes">Open holes</string>
+    <string name="preference_key_debug_open_holes">prefs_debug_open_holes</string>
+    <string name="preference_summary_debug_open_holes">Debug open holes</string>
+
+    <string name="preference_key_debug_share_api_request">prefs_debug_share_api_request</string>
+    <string name="preference_title_share_api_request">Share API-Request</string>
+    <string name="preference_title_send_api_request">Send API-Request</string>
+    <string name="preference_summary_share_api_request">Share API-Request</string>
+
+    <string name="preference_key_debug_enable_sync">featureToggleSync</string>
+    <string name="preference_title_enable_sync">Sync</string>
+    <string name="preference_summary_enable_sync">Enable sync data.</string>
+
+    <string name="preference_key_debug_enable_background_fetch_offset">debugEnableBackgroundFetchOffset</string>
+    <string name="preference_title_enable_background_fetch_offset">Manipulate background-search</string>
+    <string name="preference_summary_enable_background_fetch_offset">Active background-search with different parameters.</string>
+
+    <string name="preference_key_debug_background_fetch_offset">debugBackgroundFetchOffset</string>
+    <string name="preference_title_debug_background_fetch_offset">Time offset</string>
+    <string name="preference_summary_debug_background_fetch_offset">Time offset for debug background.</string>
+
+    <string name="preference_title_notifications">Notification</string>
+    <string name="preference_summary_notifications">Setting for notification</string>
+    <string name="preference_key_notifications_background_search">prefs_notifications_background_search</string>
+    <string name="preference_title_notifications_background_search">New search-result</string>
+    <string name="preference_summary_notifications_background_search">Notify me if there are new objects on server.</string>
+
+    <string name="preference_key_api_environment">apiEnvironment</string>
+    <string name="preference_title_api_environment">API-Environment</string>
+    <string name="preference_summary_api_environment">Environment for API-system.</string>
+    <string name="preference_api_environment_value_live">live</string>
+    <string name="preference_api_environment_value_head">head</string>
+    <string name="preference_api_environment_value_branch">branch</string>
+    <string name="preference_api_environment_value_fake">fake</string>
+    <string name="preference_api_environment_value_vt1">vt1</string>
+    <string-array name="preference_api_environment_entries">
+        <item>Live</item>
+        <item>Head</item>
+        <item>Branch</item>
+        <item>Fake (mit Live)</item>
+        <item>VT1</item>
+    </string-array>
+    <string-array name="preference_api_environment_entry_values">
+        <item>live</item>
+        <item>head</item>
+        <item>branch</item>
+        <item>fake</item>
+        <item>vt1</item>
+    </string-array>
+
+    <string name="preference_key_debug_feedback_enforce">debugFeedbackEnforce</string>
+    <string name="preference_title_debug_feedback_enforce">Enforce to send feedbacks</string>
+    <string name="preference_summary_debug_feedback_enforce">In search-result you will be enforced to send some feedbacks.</string>
+    <string name="lbl_open_settings">Open settings</string>
+
+</resources>
