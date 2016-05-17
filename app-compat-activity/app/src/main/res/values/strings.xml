@@ -1,7 +1,5 @@
 <resources>
-    <string name="app_name">PreferenceFragmentCompat</string>
-
-
+    <string name="app_name">AppCompatPreferenceActivity</string>
 
 
     <string name="preference_title_datastore">Storage</string>

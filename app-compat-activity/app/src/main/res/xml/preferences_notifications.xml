@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+	<CheckBoxPreference
+		android:key="@string/preference_key_notifications_background_search"
+		android:title="@string/preference_title_notifications_background_search"
+		android:summary="@string/preference_summary_notifications_background_search"
+		android:defaultValue="true"
+		/>
+</PreferenceScreen>

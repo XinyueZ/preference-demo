@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+	<header
+		android:title="@string/preference_title_userdata"
+		android:summary="@string/preference_summary_userdata"
+		android:fragment="com.demo.preference.app.fragments.SettingsFragment"
+		>
+		<extra android:name="header" android:value="preferences_userdata"/>
+	</header>
+	<header
+		android:title="@string/preference_title_notifications"
+		android:summary="@string/preference_summary_notifications"
+		android:fragment="com.demo.preference.app.fragments.SettingsFragment"
+		>
+		<extra android:name="header" android:value="preferences_notifications"/>
+	</header>
+	<header
+		android:title="@string/preference_title_datastore"
+		android:summary="@string/preference_summary_datastore"
+		android:fragment="com.demo.preference.app.fragments.SettingsFragment"
+		>
+		<extra android:name="header" android:value="preferences_datastore"/>
+	</header>
+	<header
+		android:title="@string/preference_title_tracking"
+		android:summary="@string/preference_summary_tracking"
+		android:fragment="com.demo.preference.app.fragments.SettingsFragment"
+		>
+		<extra android:name="header" android:value="preferences_tracking"/>
+	</header>
+</preference-headers>
