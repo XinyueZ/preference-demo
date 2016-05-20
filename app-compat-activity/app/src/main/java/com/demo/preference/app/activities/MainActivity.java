@@ -1,9 +1,10 @@
-package com.demo.preference;
+package com.demo.preference.app.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.demo.preference.R;
 import com.demo.preference.app.activities.SettingsActivity;
 
 public class MainActivity extends AppCompatActivity {
